@@ -1,0 +1,12 @@
+#pragma version 6
+txn ApplicationID
+int 0
+==
+bnz main_l2
+err
+main_l2:
+byte "Creator"
+txn Sender
+app_global_put
+int 1
+return

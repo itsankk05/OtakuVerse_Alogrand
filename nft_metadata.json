@@ -1,0 +1,10 @@
+{
+  "name": "Luffy Watch NFT",
+  "description": "Earned by watching One Piece Episode 1",
+  "image": "https://ipfs/bafybeicd4zrz2pmp37uxxzgfymnfinq2tzdmf6dzb3bfczgp5kcjsvjssq",
+  "attributes": [
+    { "trait_type": "Anime", "value": "One Piece" },
+    { "trait_type": "Watch-Time", "value": "15 minutes" },
+    { "trait_type": "Rarity", "value": "Common" }
+  ]
+}
