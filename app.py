@@ -12,4 +12,4 @@ app.register_blueprint(nft_routes)
 
 if __name__ == "__main__":
     print("🚀 Flask API running at http://localhost:5000")
-    app.run(debug=True)
+    app.run(host="0.0.0.0", debug=True)
